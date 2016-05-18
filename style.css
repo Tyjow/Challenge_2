@@ -1,0 +1,32 @@
+body {
+	background-color: #EEEEEE;
+}
+
+header {
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+}
+
+
+
+ul {
+list-style-type: none; 
+margin: 0 auto;
+padding: 0;
+text-align: center;
+}
+
+ul li {
+float: right;
+margin: auto;
+}
+
+ul li a {
+display: block;
+color: black;
+text-align: center;
+padding: 10px 12px;
+text-decoration: none;
+}
+
