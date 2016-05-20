@@ -20,25 +20,47 @@ font-family: "News Cycle";
 }
 
 
-ul {
+header ul {
 height: 100px;
 list-style-type: none;
 margin: 0;
 }
 
-ul li {
+header ul li {
 float: right;
 padding: 2% 0 0 0;
 font-family: "News Cycle";
 }
 
-ul li a {
+header ul li a {
 display: block;
 color: black;
 text-align: center;
 padding: 10px 20px;
 text-decoration: none;
 }
+
+.button {
+width: 250px;
+height: 70px;
+margin: auto;
+background-color: #2B3F48;
+border-radius: 10px;
+}
+
+.button > p {
+text-align: center;
+font-family: "News Cycle";
+}
+
+.button a {
+display: block;
+color: white;
+text-decoration: none;
+padding-top: 8%;
+height: 50px;
+}
+
 
 #zone1 {
 height: 840px;
@@ -49,7 +71,7 @@ background-position: center;
 background-size: cover;
 }
 
-#contentz1 {
+article {
 width: 1000px;
 height: 840px;
 margin: auto;
@@ -72,31 +94,47 @@ display: inline-block;
 
 img {
 border-radius: 50%;
-width: 160px;
+width: 150px;
+}
+
+h2 {
+text-align: center;
+color: white;
+font-size: 55px;
+font-family: "News Cycle";
+margin: 0 0 0 0;
+}
+
+.opacwhite {
+text-align: center;
+color: white;
+font-size: 22px;
+font-family: "News Cycle";
+margin: 0 0 5% 0;
+opacity: 0.6;
+}
+
+article > p {
+text-align: center;
+color: white;
+font-size: 17px;
+font-family: "News Cycle";
+margin: 0 0 8% 0;
+opacity: 0.8;
 }
 
 #zone2 {
-height: 625px;
+height: 840px;
 margin: auto;
 }
 
-#contentz2 {
-width: 1000px;
-height: 625px;
-margin: auto;
-}
 
 #zone3 {
 background-color: #27AE61;
-height: 625px;
+height: 840px;
 margin: auto;
 }
 
-#contentz3 {
-width: 1000px;
-height: 625px;
-margin: auto;
-}
 
 footer {
 height: 215px;
