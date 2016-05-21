@@ -15,8 +15,9 @@ position: relative;
 header h1 {
 margin-top: 0;
 position: absolute;
-top: 13%;
+top: 20%;
 font-family: "News Cycle";
+color: #2B3F48;
 }
 
 
@@ -28,16 +29,22 @@ margin: 0;
 
 header ul li {
 float: right;
-padding: 2% 0 0 0;
+padding: 3% 0 0 0;
 font-family: "News Cycle";
+font-size: 14px;
 }
 
 header ul li a {
 display: block;
-color: black;
+color: #2B3F48;
 text-align: center;
+letter-spacing: 1px;
 padding: 10px 20px;
 text-decoration: none;
+}
+
+header ul li a:hover {
+color: #27AE61;
 }
 
 .button {
@@ -51,8 +58,9 @@ border-radius: 10px;
 .button > p {
 text-align: center;
 font-family: "News Cycle";
+font-size: 17px;
 word-spacing: 2px;
-letter-spacing: 1px;
+letter-spacing: 3px;
 }
 
 .button a {
@@ -63,9 +71,28 @@ padding-top: 8%;
 height: 50px;
 }
 
+[target="fond vert"] {
+background-color: #27AE61;
+}
 
-#zone1 {
+[target="fond blanc"] {
+background-color: white;
+}
+
+.vert {
+color: #27AE61;
+}
+
+[target="lienblanc"] {
+color: white;
+}
+
+
+section {
 height: 840px;
+}
+
+[target="back"] {
 background-image: url(images/banner.png);
 background-color: #27AE61;
 background-repeat: no-repeat;
@@ -89,14 +116,14 @@ justify-content: center;
 }
 
 .pic {
-margin: 0 25px 0 25px;
+margin: 0 20px 0 30px;
 display: inline-block;
 }
 
 
 img {
 border-radius: 50%;
-width: 150px;
+width: 160px;
 }
 
 h2 {
@@ -107,38 +134,64 @@ font-family: "News Cycle";
 margin: 0 0 0 0;
 }
 
-.opacwhite {
-text-align: center;
+.padh2 {
+padding: 15% 0 0 0;
+}
+
+[target="soustitre en gris"] {
+color: #2B3F48;
+}
+
+p.padp {
+padding: 0 0 0 0;
+margin: 10% 0 20% 0;
+}
+
+[target="texte en noir"] {
+color: black;
+opacity: 0.6;
+}
+
+[target="texte en blanc"] {
 color: white;
+}
+
+[target="texte en blanc opac"] {
+color: white;
+opacity: 0.8;
+}
+
+.opac {
+text-align: center;
 font-size: 22px;
 font-family: "News Cycle";
 margin: 0 0 5% 0;
 opacity: 0.6;
 }
 
-article > p {
+.opac2 {
 text-align: center;
-color: white;
 font-size: 17px;
 font-family: "News Cycle";
 margin: 0 0 8% 0;
-opacity: 0.8;
 }
-
-#zone2 {
-height: 840px;
-margin: auto;
-}
-
-
-#zone3 {
-background-color: #27AE61;
-height: 840px;
-margin: auto;
-}
-
-
 footer {
+width: 1000px;
 height: 215px;
+padding: 0;
 margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+footer p {
+font-family: "News Cycle";
+margin: auto;
+word-spacing: 2px;
+letter-spacing: 2px;
+}
+
+.noir {
+opacity: 0.4;
 }
